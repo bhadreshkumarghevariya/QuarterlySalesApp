@@ -9,6 +9,10 @@ namespace QuarterlySalesApp.Models
         public decimal Amount { get; set; }
         public int EmployeeId { get; set; }
         public Employee? Employee { get; set; }
+
+        public string FilterByEmployee { get; set; }
+        public string FilterByYear { get; set; }
+        public string FilterByQuarter { get; set; }
     }
 }
 

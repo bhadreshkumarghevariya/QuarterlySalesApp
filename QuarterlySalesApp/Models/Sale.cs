@@ -8,7 +8,7 @@ namespace QuarterlySalesApp.Models
         public int Year { get; set; }
         public decimal Amount { get; set; }
         public int EmployeeId { get; set; }
-        public Employee Employee { get; set; }
+        public Employee? Employee { get; set; }
     }
 }
 

@@ -9,6 +9,10 @@ namespace QuarterlySalesApp.Models
         public DateTime DOB { get; set; }
         public DateTime DateOfHire { get; set; }
         public int ManagerId { get; set; }
+        public string FullName
+        {
+            get { return FirstName + " " + LastName; }
+        }
     }
 }
 
